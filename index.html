@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAZZ STORE</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff9ad5, #b37dff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }.container {
+        width: 90%;
+        max-width: 420px;
+        padding: 25px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .menu-btn {
+        width: 100%;
+        background: white;
+        color: #b037ff;
+        padding: 15px;
+        margin: 12px 0;
+        border-radius: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .menu-btn:hover {
+        transform: scale(1.05);
+        background: #f4e6ff;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>TAZZ STORE</h1><button class="menu-btn" onclick="menu1()">Buy AM / All APK Premium</button>
+    <button class="menu-btn" onclick="menu2()">Tanya tentang AM Premium</button>
+    <button class="menu-btn" onclick="menu3()">Kontak Admin</button>
+</div>
+
+<script>
+    function menu1() {
+        window.location.href = "https://wa.me/6285709518077?text=min%20mau%20beli%20am%20prem/all%20apk%20prem";
+    }
+
+    function menu2() {
+        window.location.href = "https://wa.me/6285709518077?text=bang%20mau%20tanya%20soal%20am%20prem";
+    }
+
+    function menu3() {
+        window.location.href = "https://wa.me/6285709518077";
+    }
+</script>
+
+</body>
+</html>
